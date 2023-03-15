@@ -9,7 +9,7 @@ resource "aws_instance" "my_insatancce1" {
 
 
 resource "aws_s3_bucket" "bucket1" {
-  bucket = "em9114"
+  bucket = "emm9114"
 
   tags = {
     Name        = "My bucket1"

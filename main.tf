@@ -8,11 +8,11 @@ resource "aws_instance" "my_insatancce1" {
 }
 
 
-resource "aws_s3_bucket" "b" {
+resource "aws_s3_bucket" "bucket1" {
   bucket = "m23m3m"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My bucket1"
     Environment = "Dev"
   }
 }

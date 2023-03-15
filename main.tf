@@ -6,3 +6,13 @@ resource "aws_instance" "my_insatancce1" {
     }
   
 }
+
+
+resource "aws_s3_bucket" "b" {
+  bucket = "m23m3m"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
